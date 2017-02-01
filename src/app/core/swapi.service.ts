@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import {Http,Response} from "@angular/http";
 import {Observable} from "rxjs";
 
-const PEOPLE_API_URL="https://swapi.co/api/people/";
+const PEOPLE_API_URL="http://swapi.co/api/people/";
 
 @Injectable()
 export class SwapiService {
